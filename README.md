@@ -51,7 +51,11 @@
 
 -   `make clean`  to remove the logs and zipped function
 
-	**General observations.:** The lambda function created by default will use the name "test-cli", if you want to change, go to **Makefile** and change the name of the variable ***function_name***.
+ **General observations.:**
+ 
+ 1. The lambda function created by default will use the name "test-cli", if you want to change, go to **Makefile** and change the name of the variable ***function_name***.
+ 
+ 2. Make sure that you have installed the **AWS CLI** and configured your credentials for accessing your Amazon account.
 
 ## [](#how-to-contribute):pencil2: How to contribute
 

@@ -56,6 +56,11 @@
  1. The lambda function created by default will use the name "test-cli", if you want to change, go to **Makefile** and change the name of the variable ***function_name***.
  
  2. Make sure that you have installed the **AWS CLI** and configured your credentials for accessing your Amazon account.
+  If you are unsure of how to do it, access the links below: <br />
+  <a href="https://aws.amazon.com/pt/cli/">Download AWS CLI</a> <br />
+  <a href="https://docs.aws.amazon.com/pt_br/rekognition/latest/dg/setup-awscli-sdk.html">How to configure AWS CLI</a>
+  
+ 3. The command used to zip the function in `make upload-function` and `make update-function` is a unix command, that is, it will only work on MacOS and Linux distributions, if using Windows it will need a small change.
 
 ## [](#how-to-contribute):pencil2: How to contribute
 
